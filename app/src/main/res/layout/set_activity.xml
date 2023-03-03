@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center"
+    app:flow_verticalAlign="center"
+    tools:context=".SetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        android:elevation="10sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Height"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Weight"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteY="430dp" />
+
+        <EditText
+            android:id="@+id/med"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Medical Condition" />
+
+        <EditText
+            android:id="@+id/hand"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Hand"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:dropDownWidth="match_parent"
+            android:hint="Gender"
+            android:spinnerMode="dropdown"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+        <EditText
+            android:id="@+id/act_hr"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Actual HR"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/act_sbp"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Actual SBP"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/act_dbp"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:ems="10"
+            android:hint="Actual DBP"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="427dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
